@@ -1,0 +1,19 @@
+{
+  "name": "cryptographic-app",
+  "version": "1.0.0",
+  "description": "A secure, full-stack web application for advanced cryptographic operations",
+  "private": true,
+  "scripts": {
+    "client:install": "cd client && npm install",
+    "server:install": "cd server && npm install",
+    "client:build": "cd client && npm run build",
+    "server:build": "cd server && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SL-Tiwari/Cryptographic_app.git"
+  },
+  "keywords": ["cryptography", "security", "web-app"],
+  "author": "Sahil Tiwari",
+  "license": "ISC"
+}
